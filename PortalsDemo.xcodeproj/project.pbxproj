@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,14 +11,34 @@
 		5223320528594292004C77AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223320428594292004C77AD /* ContentView.swift */; };
 		5223320728594295004C77AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5223320628594295004C77AD /* Assets.xcassets */; };
 		5223320A28594295004C77AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5223320928594295004C77AD /* Preview Assets.xcassets */; };
+		52539447285A60640005C6D1 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 5253943E285A60640005C6D1 /* favicon.ico */; };
+		52539448285A60640005C6D1 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5253943F285A60640005C6D1 /* index.html */; };
+		52539449285A60640005C6D1 /* main.06b8747b66dbb73b.esm.js in Resources */ = {isa = PBXBuildFile; fileRef = 52539440285A60640005C6D1 /* main.06b8747b66dbb73b.esm.js */; };
+		5253944A285A60640005C6D1 /* 3rdpartylicenses.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52539441285A60640005C6D1 /* 3rdpartylicenses.txt */; };
+		5253944B285A60640005C6D1 /* runtime.195b16c2abc3ca51.esm.js in Resources */ = {isa = PBXBuildFile; fileRef = 52539442285A60640005C6D1 /* runtime.195b16c2abc3ca51.esm.js */; };
+		5253944C285A60640005C6D1 /* main.06b8747b66dbb73b.esm.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52539443285A60640005C6D1 /* main.06b8747b66dbb73b.esm.js.LICENSE.txt */; };
+		5253944D285A60640005C6D1 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 52539445285A60640005C6D1 /* .gitkeep */; };
+		5253944E285A60640005C6D1 /* polyfills.a5b2ebb412830c59.esm.js in Resources */ = {isa = PBXBuildFile; fileRef = 52539446285A60640005C6D1 /* polyfills.a5b2ebb412830c59.esm.js */; };
+		E86FB317D4E08512F06564AE /* Pods_PortalsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C14BE27531455BE27CDFD5 /* Pods_PortalsDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04C14BE27531455BE27CDFD5 /* Pods_PortalsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PortalsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5477104F74C9B2953511EF /* Pods-PortalsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortalsDemo.release.xcconfig"; path = "Target Support Files/Pods-PortalsDemo/Pods-PortalsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		522331FF28594292004C77AD /* PortalsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortalsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5223320228594292004C77AD /* PortalsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalsDemoApp.swift; sourceTree = "<group>"; };
 		5223320428594292004C77AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5223320628594295004C77AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5223320928594295004C77AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5253943E285A60640005C6D1 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		5253943F285A60640005C6D1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		52539440285A60640005C6D1 /* main.06b8747b66dbb73b.esm.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.06b8747b66dbb73b.esm.js; sourceTree = "<group>"; };
+		52539441285A60640005C6D1 /* 3rdpartylicenses.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3rdpartylicenses.txt; sourceTree = "<group>"; };
+		52539442285A60640005C6D1 /* runtime.195b16c2abc3ca51.esm.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = runtime.195b16c2abc3ca51.esm.js; sourceTree = "<group>"; };
+		52539443285A60640005C6D1 /* main.06b8747b66dbb73b.esm.js.LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.06b8747b66dbb73b.esm.js.LICENSE.txt; sourceTree = "<group>"; };
+		52539445285A60640005C6D1 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		52539446285A60640005C6D1 /* polyfills.a5b2ebb412830c59.esm.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = polyfills.a5b2ebb412830c59.esm.js; sourceTree = "<group>"; };
+		D9CE1EFECDBDB94FCED30170 /* Pods-PortalsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortalsDemo.debug.xcconfig"; path = "Target Support Files/Pods-PortalsDemo/Pods-PortalsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86FB317D4E08512F06564AE /* Pods_PortalsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C39E5B105C3935A30F047AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9CE1EFECDBDB94FCED30170 /* Pods-PortalsDemo.debug.xcconfig */,
+				3C5477104F74C9B2953511EF /* Pods-PortalsDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E00987C93134E2197148FE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C14BE27531455BE27CDFD5 /* Pods_PortalsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		522331F628594292004C77AD = {
 			isa = PBXGroup;
 			children = (
 				5223320128594292004C77AD /* PortalsDemo */,
 				5223320028594292004C77AD /* Products */,
+				3C39E5B105C3935A30F047AE /* Pods */,
+				3E00987C93134E2197148FE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +91,7 @@
 		5223320128594292004C77AD /* PortalsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5253943D285A60640005C6D1 /* player-app */,
 				5223320228594292004C77AD /* PortalsDemoApp.swift */,
 				5223320428594292004C77AD /* ContentView.swift */,
 				5223320628594295004C77AD /* Assets.xcassets */,
@@ -67,6 +108,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5253943D285A60640005C6D1 /* player-app */ = {
+			isa = PBXGroup;
+			children = (
+				5253943E285A60640005C6D1 /* favicon.ico */,
+				5253943F285A60640005C6D1 /* index.html */,
+				52539440285A60640005C6D1 /* main.06b8747b66dbb73b.esm.js */,
+				52539441285A60640005C6D1 /* 3rdpartylicenses.txt */,
+				52539442285A60640005C6D1 /* runtime.195b16c2abc3ca51.esm.js */,
+				52539443285A60640005C6D1 /* main.06b8747b66dbb73b.esm.js.LICENSE.txt */,
+				52539444285A60640005C6D1 /* assets */,
+				52539446285A60640005C6D1 /* polyfills.a5b2ebb412830c59.esm.js */,
+			);
+			path = "player-app";
+			sourceTree = "<group>";
+		};
+		52539444285A60640005C6D1 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				52539445285A60640005C6D1 /* .gitkeep */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5223320D28594295004C77AD /* Build configuration list for PBXNativeTarget "PortalsDemo" */;
 			buildPhases = (
+				918FE42EB1A9BC10F8895004 /* [CP] Check Pods Manifest.lock */,
 				522331FB28594292004C77AD /* Sources */,
 				522331FC28594292004C77AD /* Frameworks */,
 				522331FD28594292004C77AD /* Resources */,
+				9CD17E9188F3DBBBC9031643 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +169,7 @@
 				};
 			};
 			buildConfigurationList = 522331FA28594292004C77AD /* Build configuration list for PBXProject "PortalsDemo" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,11 +192,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				5223320A28594295004C77AD /* Preview Assets.xcassets in Resources */,
+				5253944B285A60640005C6D1 /* runtime.195b16c2abc3ca51.esm.js in Resources */,
+				52539449285A60640005C6D1 /* main.06b8747b66dbb73b.esm.js in Resources */,
+				5253944D285A60640005C6D1 /* .gitkeep in Resources */,
+				52539448285A60640005C6D1 /* index.html in Resources */,
+				5253944C285A60640005C6D1 /* main.06b8747b66dbb73b.esm.js.LICENSE.txt in Resources */,
+				5253944A285A60640005C6D1 /* 3rdpartylicenses.txt in Resources */,
+				5253944E285A60640005C6D1 /* polyfills.a5b2ebb412830c59.esm.js in Resources */,
 				5223320728594295004C77AD /* Assets.xcassets in Resources */,
+				52539447285A60640005C6D1 /* favicon.ico in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		918FE42EB1A9BC10F8895004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PortalsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD17E9188F3DBBBC9031643 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PortalsDemo/Pods-PortalsDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PortalsDemo/Pods-PortalsDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PortalsDemo/Pods-PortalsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		522331FB28594292004C77AD /* Sources */ = {
@@ -261,6 +377,7 @@
 		};
 		5223320E28594295004C77AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9CE1EFECDBDB94FCED30170 /* Pods-PortalsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +407,7 @@
 		};
 		5223320F28594295004C77AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C5477104F74C9B2953511EF /* Pods-PortalsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

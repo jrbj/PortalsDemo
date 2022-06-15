@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+import IonicPortals
 
 struct ContentView: View {
+   let portal = Portal(name: "player-app")
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+       VStack {
+          PortalView(portal: portal)
+       }
     }
 }
 
